@@ -1,0 +1,5 @@
+# Windows 批处理必须是 CRLF 行尾，否则 cmd 解析会失败（报 'S' not recognized）
+*.bat text eol=crlf
+
+# shell 脚本用 LF
+*.sh text eol=lf
