@@ -22,6 +22,7 @@
 
 | 阶段 | 主题 | 状态 | 笔记 |
 |------|------|------|------|
+| - | 架构设计 | ✅ | [docs/architecture.md](docs/architecture.md) |
 | 1 | HTTP + Provider 抽象 + 单轮问答 | ✅ | [docs/01-http.md](docs/01-http.md) |
 | 2 | 流式 SSE + 事件系统 | ✅ | [docs/02-streaming.md](docs/02-streaming.md) |
 | 3 | 工具系统 + agent loop | ✅ | [docs/03-tools.md](docs/03-tools.md) |
