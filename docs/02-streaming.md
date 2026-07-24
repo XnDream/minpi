@@ -92,3 +92,7 @@ main.cpp   MessageEnd打印   →    MessageUpdate打印 【小改】
 ## 流式 vs 非流式，一次请求还是多次？
 
 **一次请求，一个响应 body**。流式只是响应的传输方式变了（chunked 分块），不是发多次请求。多轮对话才是多次请求（每次带完整历史）。
+
+## 更多细节
+
+SSE 的底层 chunked 格式、长度字段、结束包、连接 vs 响应的区分等细节，见 [docs/sse.md](sse.md)。
